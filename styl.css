@@ -1,0 +1,48 @@
+﻿html { 
+  background-color: #D4DEE0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: x-large;
+  color: #3E5B60;
+  margin-top: 15%
+}
+
+
+a
+{ 
+color: #5B6060;
+font-family: "Lato";
+font-weight: 300;
+}
+
+nav
+{
+	
+	margin: 0 auto;
+    text-align:center;	
+    width: 25%;
+	border-radius: 5%;
+	border-style: solid;
+	border-color: #3E5B60;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+	border-color: #3E5B60;
+}
+
+table, th, td {
+    border: 1px solid black;
+	padding: 10px;
+    text-align: left;
+	border-color: #3E5B60;
+}
+
+
+
+

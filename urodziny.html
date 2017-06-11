@@ -1,0 +1,21 @@
+<?php
+require 'sprawdzins.php';
+?>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Notesso 2.0</title>
+    <link rel="stylesheet" type="text/css" href="styl.css" />
+</head>
+<body>
+
+<center><form action="urodziny.php" method="post">
+<h1>Dodaj solenizanta!</h1><br>
+<label>Imie solenizanta: </label><input type="text" name="imie_sol" required /><br>
+<label>Nazwisko solenizanta: </label><input type="text" name="nazwisko_sol" required /><br>
+<label>Data urodzenia: </label><input type="date" name="data_urodzenia" required /><br>
+<br><input type="submit" />
+</form></center>
+<center><a href=projekt_glowna.php>Powrót do głównego menu</a></center>
+</body>
